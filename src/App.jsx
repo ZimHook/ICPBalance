@@ -59,7 +59,7 @@ const App = () => {
       <h2 className="content">
         Principal/CanisterID/Address : <Input className="input" onChange={handleChange}></Input>
         <br/> 
-        ICP balance : {balance/100000000} 
+        ICP Balance : {balance/100000000} 
         <br/> 
         <Button loading={loading} type="primary" onClick={getICPBanlance}>
           Query Balance
