@@ -56,13 +56,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <meta name="twitter:card" content="123" />
-      <meta name="twitter:site" content="ZimHook" />
-      <meta name="twitter:title" content="Top 10 Things Ever" />
-      <meta name="twitter:description" content="HHHHHHHHHHH" />
-      <meta name="twitter:creator" content="@ZimHook" />
-      <meta name="twitter:image" content="https://storageapi.fleek.co/zimhook-team-bucket/SHIKU/rc-upload-1646823800475-125cea30c461da3b74.jpg" />
-      <meta name="twitter:domain" content="YourDomain.com"></meta>
+      
       <h2 className="content">
         Principal/CanisterID/Address : <Input className="input" onChange={handleChange}></Input>
         <br/> 
